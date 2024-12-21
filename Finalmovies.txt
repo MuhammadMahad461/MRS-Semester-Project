@@ -1,0 +1,500 @@
+Inception1 Action 4.9
+The Dark Knight1 Action 4.4
+Matrix1 Action 4.1
+Spider-Man: No Way Home1 Action 4.6
+Edge of Tomorrow1 Action 4.8
+Inception2 Action 4.3
+The Dark Knight2 Action 4.1
+Matrix2 Action 4.9
+Spider-Man: No Way Home2 Action 4.0
+Edge of Tomorrow2 Action 4.7
+Inception3 Action 4.9
+The Dark Knight3 Action 4.7
+Matrix3 Action 4.8
+Spider-Man: No Way Home3 Action 4.1
+Edge of Tomorrow3 Action 4.5
+Inception4 Action 4.8
+The Dark Knight4 Action 4.6
+Matrix4 Action 4.6
+Spider-Man: No Way Home4 Action 4.7
+Edge of Tomorrow4 Action 4.9
+Inception5 Action 4.8
+The Dark Knight5 Action 4.4
+Matrix5 Action 4.4
+Spider-Man: No Way Home5 Action 4.7
+Edge of Tomorrow5 Action 4.3
+Inception6 Action 4.0
+The Dark Knight6 Action 4.4
+Matrix6 Action 4.8
+Spider-Man: No Way Home6 Action 4.2
+Edge of Tomorrow6 Action 4.8
+Inception7 Action 4.9
+The Dark Knight7 Action 4.6
+Matrix7 Action 4.3
+Spider-Man: No Way Home7 Action 4.8
+Edge of Tomorrow7 Action 4.2
+Inception8 Action 4.8
+The Dark Knight8 Action 5.0
+Matrix8 Action 4.8
+Spider-Man: No Way Home8 Action 5.0
+Edge of Tomorrow8 Action 5.0
+Inception9 Action 4.9
+The Dark Knight9 Action 4.4
+Matrix9 Action 4.2
+Spider-Man: No Way Home9 Action 4.0
+Edge of Tomorrow9 Action 4.3
+Inception10 Action 4.3
+The Dark Knight10 Action 4.7
+Matrix10 Action 4.1
+Spider-Man: No Way Home10 Action 4.7
+Edge of Tomorrow10 Action 4.8
+Inception11 Action 4.3
+The Dark Knight11 Action 4.1
+Matrix11 Action 4.3
+Spider-Man: No Way Home11 Action 4.0
+Edge of Tomorrow11 Action 4.3
+Inception12 Action 4.9
+The Dark Knight12 Action 4.2
+Matrix12 Action 4.9
+Spider-Man: No Way Home12 Action 4.3
+Edge of Tomorrow12 Action 4.3
+Inception13 Action 4.7
+The Dark Knight13 Action 4.7
+Matrix13 Action 4.5
+Spider-Man: No Way Home13 Action 4.8
+Edge of Tomorrow13 Action 4.5
+Inception14 Action 4.4
+The Dark Knight14 Action 5.0
+Matrix14 Action 4.2
+Spider-Man: No Way Home14 Action 4.6
+Edge of Tomorrow14 Action 4.8
+Inception15 Action 4.2
+The Dark Knight15 Action 4.5
+Matrix15 Action 4.5
+Spider-Man: No Way Home15 Action 4.3
+Edge of Tomorrow15 Action 4.2
+Inception16 Action 4.8
+The Dark Knight16 Action 4.4
+Matrix16 Action 4.5
+Spider-Man: No Way Home16 Action 4.1
+Edge of Tomorrow16 Action 4.5
+Inception17 Action 4.2
+The Dark Knight17 Action 4.9
+Matrix17 Action 4.8
+Spider-Man: No Way Home17 Action 4.4
+Edge of Tomorrow17 Action 4.8
+Inception18 Action 4.1
+The Dark Knight18 Action 4.8
+Matrix18 Action 4.6
+Spider-Man: No Way Home18 Action 4.1
+Edge of Tomorrow18 Action 4.0
+Inception19 Action 4.7
+The Dark Knight19 Action 4.8
+Matrix19 Action 4.1
+Spider-Man: No Way Home19 Action 4.5
+Edge of Tomorrow19 Action 4.1
+Inception20 Action 4.9
+The Dark Knight20 Action 4.8
+Matrix20 Action 4.9
+Spider-Man: No Way Home20 Action 4.7
+Edge of Tomorrow20 Action 4.6
+The Conjuring1 Horror 4.0
+Hereditary1 Horror 4.4
+Get Out1 Horror 4.7
+It1 Horror 4.7
+A Quiet Place1 Horror 4.3
+The Conjuring2 Horror 4.7
+Hereditary2 Horror 4.3
+Get Out2 Horror 5.0
+It2 Horror 4.6
+A Quiet Place2 Horror 4.5
+The Conjuring3 Horror 4.0
+Hereditary3 Horror 4.3
+Get Out3 Horror 4.1
+It3 Horror 4.3
+A Quiet Place3 Horror 4.3
+The Conjuring4 Horror 4.1
+Hereditary4 Horror 4.1
+Get Out4 Horror 4.1
+It4 Horror 4.1
+A Quiet Place4 Horror 4.2
+The Conjuring5 Horror 4.2
+Hereditary5 Horror 4.5
+Get Out5 Horror 4.3
+It5 Horror 4.9
+A Quiet Place5 Horror 4.6
+The Conjuring6 Horror 4.1
+Hereditary6 Horror 4.8
+Get Out6 Horror 4.3
+It6 Horror 4.7
+A Quiet Place6 Horror 4.6
+The Conjuring7 Horror 4.6
+Hereditary7 Horror 4.5
+Get Out7 Horror 4.9
+It7 Horror 4.8
+A Quiet Place7 Horror 4.5
+The Conjuring8 Horror 4.8
+Hereditary8 Horror 4.3
+Get Out8 Horror 4.1
+It8 Horror 4.1
+A Quiet Place8 Horror 4.5
+The Conjuring9 Horror 4.9
+Hereditary9 Horror 4.8
+Get Out9 Horror 4.7
+It9 Horror 4.9
+A Quiet Place9 Horror 4.3
+The Conjuring10 Horror 4.7
+Hereditary10 Horror 4.0
+Get Out10 Horror 4.1
+It10 Horror 4.6
+A Quiet Place10 Horror 4.9
+The Conjuring11 Horror 4.9
+Hereditary11 Horror 4.2
+Get Out11 Horror 5.0
+It11 Horror 4.9
+A Quiet Place11 Horror 4.5
+The Conjuring12 Horror 4.3
+Hereditary12 Horror 4.4
+Get Out12 Horror 4.5
+It12 Horror 4.9
+A Quiet Place12 Horror 4.7
+The Conjuring13 Horror 4.7
+Hereditary13 Horror 4.6
+Get Out13 Horror 4.7
+It13 Horror 4.4
+A Quiet Place13 Horror 4.6
+The Conjuring14 Horror 4.4
+Hereditary14 Horror 4.8
+Get Out14 Horror 4.5
+It14 Horror 4.4
+A Quiet Place14 Horror 4.1
+The Conjuring15 Horror 4.0
+Hereditary15 Horror 4.0
+Get Out15 Horror 4.1
+It15 Horror 4.2
+A Quiet Place15 Horror 4.6
+The Conjuring16 Horror 4.6
+Hereditary16 Horror 4.1
+Get Out16 Horror 4.8
+It16 Horror 4.8
+A Quiet Place16 Horror 4.2
+The Conjuring17 Horror 4.4
+Hereditary17 Horror 4.8
+Get Out17 Horror 4.4
+It17 Horror 4.5
+A Quiet Place17 Horror 4.2
+The Conjuring18 Horror 4.8
+Hereditary18 Horror 4.7
+Get Out18 Horror 4.5
+It18 Horror 4.4
+A Quiet Place18 Horror 4.8
+The Conjuring19 Horror 4.4
+Hereditary19 Horror 4.8
+Get Out19 Horror 4.1
+It19 Horror 4.3
+A Quiet Place19 Horror 4.5
+The Conjuring20 Horror 4.9
+Hereditary20 Horror 4.8
+Get Out20 Horror 5.0
+It20 Horror 4.6
+A Quiet Place20 Horror 4.6
+The Notebook1 Romance 4.3
+Titanic1 Romance 4.2
+Pride and Prejudice1 Romance 4.3
+La La Land1 Romance 5.0
+Before Sunrise1 Romance 4.9
+The Notebook2 Romance 4.3
+Titanic2 Romance 4.9
+Pride and Prejudice2 Romance 4.1
+La La Land2 Romance 5.0
+Before Sunrise2 Romance 4.8
+The Notebook3 Romance 4.4
+Titanic3 Romance 4.9
+Pride and Prejudice3 Romance 4.6
+La La Land3 Romance 4.3
+Before Sunrise3 Romance 4.4
+The Notebook4 Romance 4.5
+Titanic4 Romance 4.5
+Pride and Prejudice4 Romance 4.9
+La La Land4 Romance 4.8
+Before Sunrise4 Romance 4.7
+The Notebook5 Romance 4.5
+Titanic5 Romance 4.6
+Pride and Prejudice5 Romance 4.1
+La La Land5 Romance 4.9
+Before Sunrise5 Romance 4.9
+The Notebook6 Romance 4.9
+Titanic6 Romance 4.7
+Pride and Prejudice6 Romance 4.2
+La La Land6 Romance 4.1
+Before Sunrise6 Romance 4.2
+The Notebook7 Romance 4.8
+Titanic7 Romance 4.7
+Pride and Prejudice7 Romance 4.3
+La La Land7 Romance 4.2
+Before Sunrise7 Romance 4.8
+The Notebook8 Romance 4.2
+Titanic8 Romance 4.5
+Pride and Prejudice8 Romance 4.7
+La La Land8 Romance 4.5
+Before Sunrise8 Romance 4.0
+The Notebook9 Romance 4.7
+Titanic9 Romance 4.8
+Pride and Prejudice9 Romance 4.8
+La La Land9 Romance 4.3
+Before Sunrise9 Romance 5.0
+The Notebook10 Romance 4.3
+Titanic10 Romance 4.2
+Pride and Prejudice10 Romance 4.1
+La La Land10 Romance 4.9
+Before Sunrise10 Romance 4.1
+The Notebook11 Romance 4.5
+Titanic11 Romance 5.0
+Pride and Prejudice11 Romance 4.5
+La La Land11 Romance 4.7
+Before Sunrise11 Romance 4.9
+The Notebook12 Romance 4.2
+Titanic12 Romance 4.3
+Pride and Prejudice12 Romance 5.0
+La La Land12 Romance 4.1
+Before Sunrise12 Romance 4.7
+The Notebook13 Romance 4.8
+Titanic13 Romance 4.5
+Pride and Prejudice13 Romance 4.5
+La La Land13 Romance 4.5
+Before Sunrise13 Romance 4.9
+The Notebook14 Romance 4.5
+Titanic14 Romance 4.8
+Pride and Prejudice14 Romance 4.2
+La La Land14 Romance 5.0
+Before Sunrise14 Romance 4.4
+The Notebook15 Romance 4.9
+Titanic15 Romance 4.9
+Pride and Prejudice15 Romance 4.3
+La La Land15 Romance 4.8
+Before Sunrise15 Romance 4.8
+The Notebook16 Romance 4.9
+Titanic16 Romance 4.2
+Pride and Prejudice16 Romance 4.8
+La La Land16 Romance 4.2
+Before Sunrise16 Romance 4.1
+The Notebook17 Romance 4.0
+Titanic17 Romance 4.1
+Pride and Prejudice17 Romance 4.7
+La La Land17 Romance 4.3
+Before Sunrise17 Romance 4.8
+The Notebook18 Romance 4.1
+Titanic18 Romance 4.2
+Pride and Prejudice18 Romance 4.9
+La La Land18 Romance 4.7
+Before Sunrise18 Romance 4.7
+The Notebook19 Romance 4.9
+Titanic19 Romance 4.9
+Pride and Prejudice19 Romance 4.7
+La La Land19 Romance 4.9
+Before Sunrise19 Romance 4.3
+The Notebook20 Romance 4.3
+Titanic20 Romance 4.6
+Pride and Prejudice20 Romance 4.5
+La La Land20 Romance 4.5
+Before Sunrise20 Romance 4.8
+Superbad1 Comedy 4.9
+Step Brothers1 Comedy 4.1
+The Grand Budapest Hotel1 Comedy 4.0
+The Hangover1 Comedy 4.5
+Mean Girls1 Comedy 4.2
+Superbad2 Comedy 4.9
+Step Brothers2 Comedy 4.6
+The Grand Budapest Hotel2 Comedy 4.7
+The Hangover2 Comedy 4.9
+Mean Girls2 Comedy 4.2
+Superbad3 Comedy 4.9
+Step Brothers3 Comedy 4.4
+The Grand Budapest Hotel3 Comedy 4.7
+The Hangover3 Comedy 4.6
+Mean Girls3 Comedy 4.8
+Superbad4 Comedy 4.0
+Step Brothers4 Comedy 4.4
+The Grand Budapest Hotel4 Comedy 4.4
+The Hangover4 Comedy 4.8
+Mean Girls4 Comedy 4.3
+Superbad5 Comedy 4.2
+Step Brothers5 Comedy 4.3
+The Grand Budapest Hotel5 Comedy 4.5
+The Hangover5 Comedy 4.9
+Mean Girls5 Comedy 4.1
+Superbad6 Comedy 4.5
+Step Brothers6 Comedy 4.1
+The Grand Budapest Hotel6 Comedy 4.8
+The Hangover6 Comedy 4.1
+Mean Girls6 Comedy 4.8
+Superbad7 Comedy 4.2
+Step Brothers7 Comedy 4.9
+The Grand Budapest Hotel7 Comedy 4.9
+The Hangover7 Comedy 4.6
+Mean Girls7 Comedy 5.0
+Superbad8 Comedy 4.5
+Step Brothers8 Comedy 4.1
+The Grand Budapest Hotel8 Comedy 4.5
+The Hangover8 Comedy 4.5
+Mean Girls8 Comedy 5.0
+Superbad9 Comedy 5.0
+Step Brothers9 Comedy 4.0
+The Grand Budapest Hotel9 Comedy 4.7
+The Hangover9 Comedy 4.8
+Mean Girls9 Comedy 4.4
+Superbad10 Comedy 4.2
+Step Brothers10 Comedy 4.6
+The Grand Budapest Hotel10 Comedy 4.4
+The Hangover10 Comedy 4.6
+Mean Girls10 Comedy 4.5
+Superbad11 Comedy 4.7
+Step Brothers11 Comedy 4.1
+The Grand Budapest Hotel11 Comedy 4.8
+The Hangover11 Comedy 4.3
+Mean Girls11 Comedy 4.7
+Superbad12 Comedy 4.5
+Step Brothers12 Comedy 4.4
+The Grand Budapest Hotel12 Comedy 4.9
+The Hangover12 Comedy 4.6
+Mean Girls12 Comedy 4.1
+Superbad13 Comedy 4.1
+Step Brothers13 Comedy 4.3
+The Grand Budapest Hotel13 Comedy 4.2
+The Hangover13 Comedy 4.6
+Mean Girls13 Comedy 4.5
+Superbad14 Comedy 4.1
+Step Brothers14 Comedy 4.8
+The Grand Budapest Hotel14 Comedy 4.6
+The Hangover14 Comedy 4.1
+Mean Girls14 Comedy 4.7
+Superbad15 Comedy 5.0
+Step Brothers15 Comedy 4.9
+The Grand Budapest Hotel15 Comedy 4.8
+The Hangover15 Comedy 4.1
+Mean Girls15 Comedy 4.8
+Superbad16 Comedy 5.0
+Step Brothers16 Comedy 4.5
+The Grand Budapest Hotel16 Comedy 4.2
+The Hangover16 Comedy 4.6
+Mean Girls16 Comedy 4.9
+Superbad17 Comedy 4.2
+Step Brothers17 Comedy 4.2
+The Grand Budapest Hotel17 Comedy 4.4
+The Hangover17 Comedy 4.1
+Mean Girls17 Comedy 4.3
+Superbad18 Comedy 4.6
+Step Brothers18 Comedy 5.0
+The Grand Budapest Hotel18 Comedy 4.7
+The Hangover18 Comedy 4.5
+Mean Girls18 Comedy 4.6
+Superbad19 Comedy 4.8
+Step Brothers19 Comedy 4.9
+The Grand Budapest Hotel19 Comedy 4.2
+The Hangover19 Comedy 4.4
+Mean Girls19 Comedy 4.3
+Superbad20 Comedy 4.6
+Step Brothers20 Comedy 4.6
+The Grand Budapest Hotel20 Comedy 4.7
+The Hangover20 Comedy 4.3
+Mean Girls20 Comedy 4.9
+Se7en1 Thriller 4.6
+Gone Girl1 Thriller 4.9
+The Silence of the Lambs1 Thriller 4.4
+Prisoners1 Thriller 4.4
+Shutter Island1 Thriller 4.9
+Se7en2 Thriller 5.0
+Gone Girl2 Thriller 4.1
+The Silence of the Lambs2 Thriller 4.1
+Prisoners2 Thriller 4.5
+Shutter Island2 Thriller 4.6
+Se7en3 Thriller 4.4
+Gone Girl3 Thriller 4.2
+The Silence of the Lambs3 Thriller 4.3
+Prisoners3 Thriller 4.5
+Shutter Island3 Thriller 4.5
+Se7en4 Thriller 4.8
+Gone Girl4 Thriller 4.4
+The Silence of the Lambs4 Thriller 4.9
+Prisoners4 Thriller 5.0
+Shutter Island4 Thriller 4.4
+Se7en5 Thriller 4.5
+Gone Girl5 Thriller 4.6
+The Silence of the Lambs5 Thriller 4.3
+Prisoners5 Thriller 4.1
+Shutter Island5 Thriller 4.5
+Se7en6 Thriller 4.2
+Gone Girl6 Thriller 4.0
+The Silence of the Lambs6 Thriller 4.9
+Prisoners6 Thriller 4.9
+Shutter Island6 Thriller 4.5
+Se7en7 Thriller 4.9
+Gone Girl7 Thriller 4.0
+The Silence of the Lambs7 Thriller 4.7
+Prisoners7 Thriller 4.6
+Shutter Island7 Thriller 4.4
+Se7en8 Thriller 4.7
+Gone Girl8 Thriller 4.9
+The Silence of the Lambs8 Thriller 4.8
+Prisoners8 Thriller 4.2
+Shutter Island8 Thriller 4.7
+Se7en9 Thriller 4.6
+Gone Girl9 Thriller 4.4
+The Silence of the Lambs9 Thriller 4.2
+Prisoners9 Thriller 4.8
+Shutter Island9 Thriller 4.2
+Se7en10 Thriller 4.6
+Gone Girl10 Thriller 4.3
+The Silence of the Lambs10 Thriller 4.9
+Prisoners10 Thriller 4.2
+Shutter Island10 Thriller 4.3
+Se7en11 Thriller 4.8
+Gone Girl11 Thriller 4.8
+The Silence of the Lambs11 Thriller 4.1
+Prisoners11 Thriller 4.8
+Shutter Island11 Thriller 4.4
+Se7en12 Thriller 4.5
+Gone Girl12 Thriller 4.6
+The Silence of the Lambs12 Thriller 4.3
+Prisoners12 Thriller 4.0
+Shutter Island12 Thriller 4.9
+Se7en13 Thriller 4.6
+Gone Girl13 Thriller 4.4
+The Silence of the Lambs13 Thriller 4.0
+Prisoners13 Thriller 4.5
+Shutter Island13 Thriller 4.7
+Se7en14 Thriller 4.7
+Gone Girl14 Thriller 4.5
+The Silence of the Lambs14 Thriller 4.6
+Prisoners14 Thriller 4.7
+Shutter Island14 Thriller 4.5
+Se7en15 Thriller 4.6
+Gone Girl15 Thriller 5.0
+The Silence of the Lambs15 Thriller 4.7
+Prisoners15 Thriller 4.3
+Shutter Island15 Thriller 4.1
+Se7en16 Thriller 4.3
+Gone Girl16 Thriller 4.3
+The Silence of the Lambs16 Thriller 4.5
+Prisoners16 Thriller 4.6
+Shutter Island16 Thriller 4.6
+Se7en17 Thriller 4.5
+Gone Girl17 Thriller 4.7
+The Silence of the Lambs17 Thriller 4.8
+Prisoners17 Thriller 4.7
+Shutter Island17 Thriller 4.1
+Se7en18 Thriller 4.2
+Gone Girl18 Thriller 4.6
+The Silence of the Lambs18 Thriller 4.8
+Prisoners18 Thriller 4.5
+Shutter Island18 Thriller 4.3
+Se7en19 Thriller 4.6
+Gone Girl19 Thriller 4.9
+The Silence of the Lambs19 Thriller 4.7
+Prisoners19 Thriller 4.7
+Shutter Island19 Thriller 4.5
+Se7en20 Thriller 4.2
+Gone Girl20 Thriller 4.1
+The Silence of the Lambs20 Thriller 4.8
+Prisoners20 Thriller 4.8
+Shutter Island20 Thriller 4.3
