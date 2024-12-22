@@ -1,45 +1,20 @@
-// In-order traversal to display movies in sorted order
-void inOrderTraversal(BSTNode* root) {
-    if (root != nullptr) {
-        inOrderTraversal(root->left);
-        cout << "Title: " << root->movie.title << ", Category: " << root->movie.category << ", Rating: " << root->movie.rating << endl;
-        inOrderTraversal(root->right);
-    }
-}
-
-// Display all movies in sorted order
-void displayMoviesInOrder() {
-    cout << "Movies in sorted order:" << endl;
-    inOrderTraversal(bstRoot);
-}
-    void viewAllMovies() {
-        cout << "Available Movies:" << endl;
-        for (const auto& movie : movies) {
-            cout << "Title: " << movie.title << ", Category: " << movie.category << ", Rating: " << movie.rating << endl;
-        }
-    }
-// Save watched movies to a user-specific file
-void saveWatchedMovies() {
-    if (currentUser ) {
-        ofstream file(currentUser ->email + "_watched_movies.txt");
-        for (const auto& title : currentUser ->watchedMovies) {
-            file << title << endl;
-        }
-        file.close();
-    }
-}
-  void markMovieAsWatched() {
+void markMovieAsWatched() {
     string title;
     cout << "Enter movie title to mark as watched: ";
     cin.ignore(); // Clear the input buffer
     getline(cin, title); // Use getline to allow spaces in titles
 
+    // Check if the movie exists in the movies list
     for (const auto& movie : movies) {
         if (movie.title == title) {
             currentUser ->watchedMovies.push_back(title);
             addWatchedMovie(title);
             actionStack.push("Marked as watched: " + title); // Push action onto stack
             saveWatchedMovies(); // Save watched movies after marking
+
+            // Remove the movie from the watch later queue if it exists
+            removeFromWatchLaterQueue(title);
+
             cout << "Movie marked as watched!" << endl;
             return;
         }
@@ -52,9 +27,8 @@ void saveWatchedMovies() {
             return;
         }
         int randomIndex = rand() % movies.size();
-        cout << "Random Movie: " << movies[randomIndex].title << ", Category: " << movies[randomIndex].category << ", Rating: " << movies[randomIndex].rating << endl;
-    }
-    // Preview 10 random movies from each category
+        cout << "Random Movie: " << movies[randomIndex].title << ", Category: " << movies[randomIndex].category << ", Rating: " << movies[randomIndex].rating << endl;
+    }
 void previewMovies() {
     unordered_map<string, vector<Movie>> categoryMovies;
     
@@ -104,7 +78,7 @@ void deleteWatchHistory() {
     saveWatchedMovies(); // Save the empty history to the file
     cout << "Your watch history has been deleted." << endl;
 }
-  void userMenu() {
+ void userMenu() {
     int choice;
     while (true) {
         cout << "\nUser  Menu:\n";
@@ -116,10 +90,11 @@ void deleteWatchHistory() {
         cout << "6. View Watch History\n";
         cout << "7. Delete Watch History\n";
         cout << "8. Preview Movies\n";
-        cout << "9. Undo Last Action\n"; // Option for undo
-        cout << "10. Add Movie to Watch Later\n"; // Option for watch later
-        cout << "11. Watch Next Movie\n"; // Option for watching next
-        cout << "12. Logout\n"; // Updated option number
+        cout << "9. Undo Last Action\n";
+        cout << "10. Add Movie to Watch Later\n";
+        cout << "11. Watch Next Movie\n";
+        cout << "12. View Watch Later Queue\n"; // New option to view watch later queue
+        cout << "13. Logout\n"; // Updated option number
         cout << "Enter your choice: ";
         cin >> choice;
 
@@ -149,7 +124,7 @@ void deleteWatchHistory() {
                 previewMovies();
                 break;
             case 9:
-                undoLastAction(); // Call the undo function
+                undoLastAction();
                 break;
             case 10: {
                 string title;
@@ -163,8 +138,12 @@ void deleteWatchHistory() {
             case 11:
                 watchNext();
                 break;
-            case 12:
-                saveWatchLaterQueue(); // Save the queue before logout currentUser  = nullptr; // Logout
+            case 12: // New case for viewing watch later queue
+                displayWatchLaterQueue();
+                break;
+            case 13:
+                saveWatchLaterQueue(); // Save the queue before logout
+                currentUser  = nullptr; // Logout
                 cout << "Logged out successfully!" << endl;
                 return;
             default:
