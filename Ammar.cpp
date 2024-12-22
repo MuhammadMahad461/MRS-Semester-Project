@@ -216,5 +216,73 @@ void sortMoviesByCategory() {
             }
         }
     }
-    cout << "Movies sorted by category." << endl;
+    cout << "Movies sorted by category." << endl;
+}
+    // Admin menu for managing users and movies
+   // Admin menu for managing users and movies
+// Admin menu for managing users and movies
+void adminMenu() {
+    int choice;
+    while (true) {
+        cout << "\nAdmin Menu:\n";
+        cout << "1. Add Movie\n";
+        cout << "2. View All Movies\n";
+        cout << "3. Sort Movies by Title\n";
+        cout << "4. Sort Movies by Rating\n";
+        cout << "5. Sort Movies by Category\n"; 
+        cout << "6. Remove Movie\n"; // New option for removing a movie
+        cout << "7. View All Users\n";
+        cout << "8. Display Movies in Order\n";
+        cout << "9. Search Movies\n"; // New option for searching movies
+        cout << "10. Logout\n"; 
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        switch (choice) {
+            case 1: {
+                Movie newMovie;
+                cout << "Enter movie title: ";
+                cin.ignore(); // Clear the input buffer
+                getline(cin, newMovie.title); // Use getline to allow spaces in titles
+                cout << "Enter movie category: ";
+                getline(cin, newMovie.category); // Use getline for category
+                cout << "Enter movie rating: ";
+                cin >> newMovie.rating;
+                movies.push_back(newMovie);
+                cout << "Movie added successfully!" << endl;
+                break;
+            }
+            case 2:
+                viewAllMovies();
+                break;
+            case 3:
+                sortMoviesByTitle();
+                break;
+            case 4:
+                sortMoviesByRating();
+                break;
+            case 5:
+                sortMoviesByCategory(); // Call the new sorting function
+                break;
+            case 6:
+                removeMovie(); // Call the remove movie function
+                break;
+            case 7:
+                cout << "Registered Users:" << endl;
+                for (const auto& user : users) {
+                    cout << "Name: " << user.name << ", Email: " << user.email << endl;
+                }
+                break;
+            case 8: // Add this case for displaying movies in order
+               displayMoviesInOrder();
+                break;
+            case 9: // New case for searching movies
+                searchMovies(); // Call the search function for admin
+                break;
+            case 10: //Log Out
+                 return;
+            default:
+                cout << "Invalid choice! Please try again." << endl;
+        }
+    }
 }
