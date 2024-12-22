@@ -234,34 +234,4 @@ void removeFromWatchLaterQueue(const string& title) {
         cout << "Movie not found in watch later queue!" << endl;
     }
 }
- void markMovieAsWatched() {
-    string title;
-    cout << "Enter movie title to mark as watched: ";
-    cin.ignore(); // Clear the input buffer
-    getline(cin, title); // Use getline to allow spaces in titles
 
-    // Check if the movie exists in the movies list
-    for (const auto& movie : movies) {
-        if (movie.title == title) {
-            currentUser ->watchedMovies.push_back(title);
-            addWatchedMovie(title);
-            actionStack.push("Marked as watched: " + title); // Push action onto stack
-            saveWatchedMovies(); // Save watched movies after marking
-
-            // Remove the movie from the watch later queue if it exists
-            removeFromWatchLaterQueue(title);
-
-            cout << "Movie marked as watched!" << endl;
-            return;
-        }
-    }
-    cout << "Movie not found!" << endl;
-}
-    void watchRandomMovie() {
-        if (movies.empty()) {
-            cout << "No movies available to watch." << endl;
-            return;
-        }
-        int randomIndex = rand() % movies.size();
-        cout << "Random Movie: " << movies[randomIndex].title << ", Category: " << movies[randomIndex].category << ", Rating: " << movies[randomIndex].rating << endl;
-    }
