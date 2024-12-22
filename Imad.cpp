@@ -1,64 +1,3 @@
- // Admin menu for managing users and movies
-// Admin menu for managing users and movies
-
-void adminMenu() {
-    int choice;
-    while (true) {
-        cout << "\nAdmin Menu:\n";
-        cout << "1. Add Movie\n";
-        cout << "2. View All Movies\n";
-        cout << "3. Sort Movies by Title\n";
-        cout << "4. Sort Movies by Rating\n";
-        cout << "5. Sort Movies by Category\n"; // New option
-        cout << "6. View All Users\n";
-        cout << "7. Logout\n";
-        cout<<"8. Display Movies in Order"<<endl; // New option
-        cout << "Enter your choice: ";
-        cin >> choice;
-
-        switch (choice) {
-            case 1: {
-                Movie newMovie;
-                cout << "Enter movie title: ";
-                cin.ignore(); // Clear the input buffer
-                getline(cin, newMovie.title); // Use getline to allow spaces in titles
-                cout << "Enter movie category: ";
-                getline(cin, newMovie.category); // Use getline for category
-                cout << "Enter movie rating: ";
-                cin >> newMovie.rating;
-                movies.push_back(newMovie);
-                cout << "Movie added successfully!" << endl;
-                break;
-            }
-            case 2:
-                viewAllMovies();
-                break;
-            case 3:
-                sortMoviesByTitle();
-                break;
-            case 4:
-                sortMoviesByRating();
-                break;
-            case 5:
-                sortMoviesByCategory(); // Call the new sorting function
-                break;
-            case 6:
-                cout << "Registered Users:" << endl;
-                for (const auto& user : users) {
-                    cout << "Name: " << user.name << ", Email: " << user.email << endl;
-                }
-                break;
-            case 7:
-                return; // Logout
-                case 8: // Add this case for displaying movies in order
-    displayMoviesInOrder();
-    break;
-            default:
-                cout << "Invalid choice! Please try again." << endl;
-        }
-    }
-}
-
 public:
    MovieApp() : bstRoot(nullptr) {
     loadUsers();
@@ -106,7 +45,19 @@ void undoLastAction() {
         cout << "No undo action available for: " << lastAction << endl;
     }
 }
+void displayWatchLaterQueue() {
+    if (watchLaterQueue.empty()) {
+        cout << "No movies in the watch later queue." << endl;
+        return;
+    }
 
+    cout << "Movies in Watch Later Queue:" << endl;
+    queue<string> tempQueue = watchLaterQueue; // Create a temporary queue to display
+    while (!tempQueue.empty()) {
+        cout << tempQueue.front() << endl; // Print the front movie
+        tempQueue.pop(); // Remove it from the temporary queue
+    }
+}
 void watchNext() {
     if (watchLaterQueue.empty()) {
         cout << "No movies in the watch later queue." << endl;
@@ -183,7 +134,23 @@ void insertMovieBST(BSTNode*& root, const Movie& movie) {
         insertMovieBST(root->right, movie);
     }
 }
+void removeMovie() {
+    string title;
+    cout << "Enter movie title to remove: ";
+    cin.ignore(); // Clear the input buffer
+    getline(cin, title); // Use getline to allow spaces in titles
 
+    auto it = remove_if(movies.begin(), movies.end(), [&title](const Movie& movie) {
+        return movie.title == title;
+    });
+
+    if (it != movies.end()) {
+        movies.erase(it, movies.end());
+        cout << "Movie removed successfully!" << endl;
+    } else {
+        cout << "Movie not found!" << endl;
+    }
+}
 // Add a movie to the BST
 void addMovieToBST(const Movie& movie) {
     insertMovieBST(bstRoot, movie);
@@ -209,3 +176,92 @@ void searchMovieInBST(const string& title) {
         cout << "Movie not found!" << endl;
     }
 }
+
+// In-order traversal to display movies in sorted order
+void inOrderTraversal(BSTNode* root) {
+    if (root != nullptr) {
+        inOrderTraversal(root->left);
+        cout << "Title: " << root->movie.title << ", Category: " << root->movie.category << ", Rating: " << root->movie.rating << endl;
+        inOrderTraversal(root->right);
+    }
+}
+
+// Display all movies in sorted order
+void displayMoviesInOrder() {
+    cout << "Movies in sorted order:" << endl;
+    inOrderTraversal(bstRoot);
+}
+    void viewAllMovies() {
+        cout << "Available Movies:" << endl;
+        for (const auto& movie : movies) {
+            cout << "Title: " << movie.title << ", Category: " << movie.category << ", Rating: " << movie.rating << endl;
+        }
+    }
+// Save watched movies to a user-specific file
+void saveWatchedMovies() {
+    if (currentUser ) {
+        ofstream file(currentUser ->email + "_watched_movies.txt");
+        for (const auto& title : currentUser ->watchedMovies) {
+            file << title << endl;
+        }
+        file.close();
+    }
+}
+void removeFromWatchLaterQueue(const string& title) {
+    queue<string> tempQueue; // Temporary queue to hold movies
+    bool found = false;
+
+    // Iterate through the watch later queue
+    while (!watchLaterQueue.empty()) {
+        string currentMovie = watchLaterQueue.front();
+        watchLaterQueue.pop();
+
+        // If the current movie is the one to be removed, set found to true
+        if (currentMovie == title) {
+            found = true;
+            cout << "Removed from watch later queue: " << title << endl;
+            continue; // Skip adding this movie to the temporary queue
+        }
+        // Add the current movie to the temporary queue
+        tempQueue.push(currentMovie);
+    }
+
+    // Restore the original queue without the removed movie
+    watchLaterQueue = tempQueue;
+
+    // If the movie was not found in the queue
+    if (!found) {
+        cout << "Movie not found in watch later queue!" << endl;
+    }
+}
+ void markMovieAsWatched() {
+    string title;
+    cout << "Enter movie title to mark as watched: ";
+    cin.ignore(); // Clear the input buffer
+    getline(cin, title); // Use getline to allow spaces in titles
+
+    // Check if the movie exists in the movies list
+    for (const auto& movie : movies) {
+        if (movie.title == title) {
+            currentUser ->watchedMovies.push_back(title);
+            addWatchedMovie(title);
+            actionStack.push("Marked as watched: " + title); // Push action onto stack
+            saveWatchedMovies(); // Save watched movies after marking
+
+            // Remove the movie from the watch later queue if it exists
+            removeFromWatchLaterQueue(title);
+
+            cout << "Movie marked as watched!" << endl;
+            return;
+        }
+    }
+    cout << "Movie not found!" << endl;
+}
+    void watchRandomMovie() {
+        if (movies.empty()) {
+            cout << "No movies available to watch." << endl;
+            return;
+        }
+        int randomIndex = rand() % movies.size();
+        cout << "Random Movie: " << movies[randomIndex].title << ", Category: " << movies[randomIndex].category << ", Rating: " << movies[randomIndex].rating << endl;
+    }
